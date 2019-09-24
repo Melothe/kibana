@@ -34,19 +34,20 @@ exports[`Stat Items Component disable charts it renders the default widget 1`] =
       narrowDateRange={[MockFunction]}
       to={1560837600000}
     >
-      <FlexItem>
+      <FlexItem
+        data-test-subj="stat-item"
+      >
         <EuiFlexItem
           className="sc-bZQynM kpuYFd"
+          data-test-subj="stat-item"
         >
           <div
             className="euiFlexItem sc-bZQynM kpuYFd"
+            data-test-subj="stat-item"
           >
             <EuiPanel
-              grow={true}
-              hasShadow={false}
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
-              paddingSize="m"
             >
               <div
                 className="euiPanel euiPanel--paddingMedium"
@@ -122,13 +123,11 @@ exports[`Stat Items Component disable charts it renders the default widget 1`] =
                                 >
                                   <EuiButtonIcon
                                     aria-label="Inspect"
-                                    color="primary"
                                     data-test-subj="inspect-icon-button"
                                     iconSize="m"
                                     iconType="inspect"
                                     onClick={[Function]}
                                     title="Inspect"
-                                    type="button"
                                   >
                                     <button
                                       aria-label="Inspect"
@@ -289,19 +288,20 @@ exports[`Stat Items Component disable charts it renders the default widget 2`] =
       narrowDateRange={[MockFunction]}
       to={1560837600000}
     >
-      <FlexItem>
+      <FlexItem
+        data-test-subj="stat-item"
+      >
         <EuiFlexItem
           className="sc-bZQynM kpuYFd"
+          data-test-subj="stat-item"
         >
           <div
             className="euiFlexItem sc-bZQynM kpuYFd"
+            data-test-subj="stat-item"
           >
             <EuiPanel
-              grow={true}
-              hasShadow={false}
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
-              paddingSize="m"
             >
               <div
                 className="euiPanel euiPanel--paddingMedium"
@@ -377,13 +377,11 @@ exports[`Stat Items Component disable charts it renders the default widget 2`] =
                                 >
                                   <EuiButtonIcon
                                     aria-label="Inspect"
-                                    color="primary"
                                     data-test-subj="inspect-icon-button"
                                     iconSize="m"
                                     iconType="inspect"
                                     onClick={[Function]}
                                     title="Inspect"
-                                    type="button"
                                   >
                                     <button
                                       aria-label="Inspect"
@@ -614,19 +612,20 @@ exports[`Stat Items Component rendering kpis with charts it renders the default 
     narrowDateRange={[MockFunction]}
     to={1560837600000}
   >
-    <FlexItem>
+    <FlexItem
+      data-test-subj="stat-item"
+    >
       <EuiFlexItem
         className="sc-bZQynM kpuYFd"
+        data-test-subj="stat-item"
       >
         <div
           className="euiFlexItem sc-bZQynM kpuYFd"
+          data-test-subj="stat-item"
         >
           <EuiPanel
-            grow={true}
-            hasShadow={false}
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
-            paddingSize="m"
           >
             <div
               className="euiPanel euiPanel--paddingMedium"
@@ -702,13 +701,11 @@ exports[`Stat Items Component rendering kpis with charts it renders the default 
                               >
                                 <EuiButtonIcon
                                   aria-label="Inspect"
-                                  color="primary"
                                   data-test-subj="inspect-icon-button"
                                   iconSize="m"
                                   iconType="inspect"
                                   onClick={[Function]}
                                   title="Inspect"
-                                  type="button"
                                 >
                                   <button
                                     aria-label="Inspect"
